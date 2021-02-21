@@ -1,0 +1,40 @@
+[Node]
+name = "server1"
+
+[Consul]
+addr = "127.0.0.1:8500"
+
+[Service]
+port = 12345
+name = "testS"
+tags = ["server1"]
+
+[Producer]
+addr = "localhost:4150"
+
+[Redis]
+addr = "localhost:6379"
+password = ""
+db = 1
+
+[RedisCluster]
+addrs = ["localhost:6379"]
+password = ""
+poolSize = 1
+
+[Mysql]
+addr = "localhost"
+port = 3306
+user = "root"
+password = "123456"
+dbname = "test"
+
+[Mongo]
+addr = "localhost"
+port = 3306
+user = "root"
+password = "123456"
+
+[Log]
+path = "logs/server.log"
+level = "debug"
