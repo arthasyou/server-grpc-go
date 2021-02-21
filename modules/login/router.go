@@ -1,6 +1,6 @@
 package login
 
-import "github.com/luobin998877/go_server/errcode"
+import "github.com/arthasyou/server-grpc-go/errcode"
 
 // StartRoute cmd
 func StartRoute(cmd uint32, data []byte) (code uint32, rData []byte) {

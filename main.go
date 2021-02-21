@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/luobin998877/go_server/frame/grpc"
-	"github.com/luobin998877/go_utility/logger"
+	"github.com/arthasyou/server-grpc-go/frame/grpc"
+	"github.com/arthasyou/utility-go/logger"
 	"github.com/spf13/viper"
 )
 

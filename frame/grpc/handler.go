@@ -1,6 +1,6 @@
 package grpc
 
-import "github.com/luobin998877/go_server/router"
+import "github.com/arthasyou/server-grpc-go/router"
 
 type handler struct{}
 

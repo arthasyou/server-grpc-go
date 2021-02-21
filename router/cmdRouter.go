@@ -3,8 +3,8 @@ package router
 import (
 	"fmt"
 
-	"github.com/luobin998877/go_server/errcode"
-	"github.com/luobin998877/go_server/modules/login"
+	"github.com/arthasyou/server-grpc-go/errcode"
+	"github.com/arthasyou/server-grpc-go/modules/login"
 )
 
 // StartCmdRouter router

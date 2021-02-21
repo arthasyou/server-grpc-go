@@ -1,9 +1,9 @@
 package db
 
 import (
-	"github.com/luobin998877/go_db/mongo"
-	"github.com/luobin998877/go_db/mysql"
-	"github.com/luobin998877/go_db/redis"
+	"github.com/arthasyou/db-go/mongo"
+	"github.com/arthasyou/db-go/mysql"
+	"github.com/arthasyou/db-go/redis"
 	"github.com/spf13/viper"
 )
 

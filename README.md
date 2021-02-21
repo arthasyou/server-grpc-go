@@ -1,1 +1,1 @@
-# go_server
+# server-grpc-go
